@@ -75,72 +75,65 @@
         </div>
     </header>
     <section class="head center">
-        <h2 class="head__heading">REGISTRATION </h2>
+        <h2 class="head__heading">SHOPPING CART </h2>
     </section>
 
-    <div class="reg center">
-        <div class="reg__left">
-            <form class="reg__form" action="#" method="post">
-
-                <p class="reg__name">Your Name</p>
-
-                <input class="reg__forms" type="text" placeholder="First Name"><br>
-                <input class="reg__forms" type="text" placeholder="Last Name"><br>
-
-                <div class="checkboxes">
-                    <div class="check">
-                        <label>
-                            <input type="radio" checked name="dva"/> Male
-                        </label>
+    <div class="cart center">
+        <div class="cart__left">
+            <div class="cart__item">
+                <img class="item__img" src="img/item2.svg" alt="">
+                <div class="item__content">
+                    <h1 class="item__header">MANGO PEOPLE<br>T-SHIRT</h1>
+                    <div class="item__price">
+                        <p class="item__price_text">Price:</p>
+                        <p class="price">$300</p>
                     </div>
-
-                    <div>
-                        <label>
-                            <input type="radio" name="dva"/> Female
-                        </label>
-                    </div>
+                    <p class="item__text">Color: Red<br> Size: Xl<br> Quantity:	2</p>
                 </div>
+            <a href="#" class="del__item"><img src="img/x.svg" alt="x"></a>
+            </div>
 
-                <p class="reg__name">Login details</p>
+            <div class="cart__item">
+                <img class="item__img" src="img/item.svg" alt="">
+                <div class="item__content">
+                    <h1 class="item__header">MANGO  PEOPLE<br>T-SHIRT</h1>
+                    <div class="item__price">
+                        <p class="item__price_text">Price:</p>
+                        <p class="price">$300</p>
+                    </div>
+                    <p class="item__text">Color: Red<br> Size: Xl<br> Quantity:	2</p>
+                </div>
+            <a href="#" class="del__item"><img src="img/x.svg" alt="x"></a>
+            </div>
 
-                <input class="reg__forms" type="text" placeholder="Email"><br>
-                <input class="reg__forms" type="text" placeholder="Password"><br>
-
-                <p class="note">Please use 8 or more characters, with at least 1 number and a<br>mixture of uppercase and lowercase letters</p>
-                
-                <button class="join">JOIN NOW <img class="imgreg" src="img/icons8-стрелка-30.png" alt=""></button>
-                
-            </form>
+            <div class="buttons">
+                <button class="clear__cart">CLEAR SHOPPING CART</button>
+                <button class="continue">CONTINUE SHOPPING</button>
+            </div>
         </div>
 
-        <div class="reg__right">
-            <p>LOYALTY HAS ITS PERKS <br>
-            <br>
-            Get in on the loyalty program where you can earn points and<br>unlock serious perks. Starting with these as soon as you join:</p>
-            <br>
-            <img class="ad" src="img/Vector (4).svg" alt="">15% off welcome offer <br>
-            <br>
-            <img class="ad" src="img/Vector (4).svg" alt="">Free shipping, returns and exchanges on all orders <br>
-            <br>
-            <img class="ad" src="img/Vector (4).svg" alt="">$10 off a purchase on your birthday <br>
-            <br>
-            <img class="ad" src="img/Vector (4).svg" alt="">Early access to products <br>
-            <br>
-            <img class="ad" src="img/Vector (4).svg" alt="">Exclusive offers & rewards
+
+        <div class="cart__right">
+            <div class="shipping">
+                <h3 class="shipping__head">SHIPPING ADRESS</h3>
+                <form class="ship__form" action="#" method="post">
+                    <input class="shipping__forms" type="text" placeholder="Sity"><br>
+                    <input class="shipping__forms" type="text" placeholder="State"><br>
+                    <input class="shipping__forms" type="text" placeholder="Postcode / Zip"><br>
+                    <button type="submit" class="shipping__button">GET A QUOTE</button>
+                </form>
+            </div>
+            <div class="finalcost">
+                <p class="sub__total">SUB TOTAL $900</p>
+                <div class="grand__total">
+                    <p class="grand__total_text">GRAND TOTAL</p>
+                    <p class="grand__price">$900</p>
+                </div>
+                <img class="grand__line" src="img/line.svg" alt=""> <br>
+                <button class="checkout">PROCEED TO CHECKOUT</button>
+            </div>
         </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
 
     <footer>
     <div class="basement center">
